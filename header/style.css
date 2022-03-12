@@ -1,0 +1,55 @@
+
+#header .navbar-brand{
+    margin: 0 2rem;
+    font-weight: 650;
+    transition: 0.4s;
+}
+#header .navbar-brand i{
+    margin: 0 1rem;
+}
+#header .navbar-brand:hover{
+    transform: scale(1.1);
+}
+#header .nav-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    transition: all 0.4s;
+}
+#header .nav-item a{
+    transition: all 0.2s;
+}
+#header .nav-item a:hover{
+    color: rgb(0, 52, 121);
+    transform: scale(1.08);
+}
+#header .navbar{
+    box-shadow: 0rem 0rem 2rem rgba(0,0, 0,0.1);
+}
+#header .navbar .d-flex .form-control,.btn{
+    border-radius: 3rem;
+    outline: none;
+}
+#header .navbar .d-flex .form-control:focus,.btn:focus{
+    border-radius: 3rem;
+    outline: none;
+    border: 1px solid rgb(63, 63, 63);
+    box-shadow: 0rem 0rem 0rem rgba(0,0, 0,0);
+}
+
+.navbar-light .navbar-toggler {
+    box-shadow: 0rem 0rem 0rem rgba(0,0, 0,0);
+    border: 0;
+    border-color:rgba(0,0, 0,0);
+    color: black;
+}
+
+@media only screen and (max-width:991px){
+    .navbar-nav{
+        align-items: left;
+    }
+    #header .nav-item a:hover{
+        color: rgb(0, 52, 121);
+        transform: scale(1.0);
+    }
+    
+}
