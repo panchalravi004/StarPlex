@@ -1,0 +1,28 @@
+#home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 255, 0);
+    height: 40rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/slider/image/1.jpg');
+    box-shadow: inset 0rem 0rem 100rem rgba(0,0,0,1);
+}
+.movie-img{
+    position: relative;
+    /* width: 100%; */
+    height: 100%;
+}
+@media only screen and (max-width:991px){
+    html{
+        font-size: 50%;
+    }
+    #home{
+        height: 35rem;
+    }
+    .movie-img{
+       width: 100%;
+    }
+}

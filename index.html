@@ -18,26 +18,56 @@
 
     <!-- FOR ALL SECTION WE HAVE TO IMPORT CSS -->
     <link rel="stylesheet" href="header/style.css">
+    <link rel="stylesheet" href="slider/style.css">
 
     <title>StarPlex</title>
     <style>
         html {
             font-size: 62.5%;
         }
-
+        body{
+            background-color: black;
+        }
         * {
             margin: 0;
             padding: 0;
             font-family: sans-serif;
+        }
+
+        #dots {
+            display: flex;
+            justify-content: center;
+            background-color: transparent;
+        }
+        #dots span{
+            display: inline;
+            width: 0.6rem;
+            height: 0.6rem;
+            margin: 1rem 0.5rem;
+            border-radius: 1rem;
+            background-color: rgb(110, 110, 110);
+            list-style: none;
         }
     </style>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header id="header"></header>
+    <header id="header" style="background-color: white;"></header>
     <!-- SLIDER -->
+    <div id="home" class="container-fluid"></div>
+    <!-- DOTS FOR SLIDER IMAGE -->
+    <div class="container" id="dots">
+        <span id="d-1"></span>
+        <span id="d-2"></span>
+        <span id="d-3"></span>
+        <span id="d-4"></span>
+        <span id="d-5"></span>
+        <span id="d-6"></span>
+        <span id="d-7"></span>
+    </div>
     <!-- MOVIES SHOW  NEW AND COMING SOON-->
+
     <!-- FOOTER -->
 </body>
 
