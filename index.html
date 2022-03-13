@@ -19,15 +19,19 @@
     <!-- FOR ALL SECTION WE HAVE TO IMPORT CSS -->
     <link rel="stylesheet" href="header/style.css">
     <link rel="stylesheet" href="slider/style.css">
+    <link rel="stylesheet" href="Movies/style.css">
 
     <title>StarPlex</title>
     <style>
         html {
             font-size: 62.5%;
         }
-        body{
+
+        body {
             background-color: black;
+            scroll-behavior: smooth;
         }
+
         * {
             margin: 0;
             padding: 0;
@@ -39,7 +43,8 @@
             justify-content: center;
             background-color: transparent;
         }
-        #dots span{
+
+        #dots span {
             display: inline;
             width: 0.6rem;
             height: 0.6rem;
@@ -47,6 +52,7 @@
             border-radius: 1rem;
             background-color: rgb(110, 110, 110);
             list-style: none;
+            transition: 0.2s;
         }
     </style>
 </head>
@@ -67,7 +73,7 @@
         <span id="d-7"></span>
     </div>
     <!-- MOVIES SHOW  NEW AND COMING SOON-->
-
+    <div class="main-section" id="main-section"></div>
     <!-- FOOTER -->
 </body>
 

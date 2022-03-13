@@ -9,16 +9,16 @@
             <i class="far fa-bars navbar-toggler-icon"></i>
         </button>
         <div class="collapse navbar-collapse justify-content-end fs-4" id="navbarNavDropdown">
-           
+
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#new">New Release</a>
+                    <a class="nav-link" href="#NewRelease">New Release</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#coming">Up Coming</a>
+                    <a class="nav-link" href="#UpComing">Up Coming</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -40,3 +40,14 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.querySelectorAll('a[href="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute()).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+</script>

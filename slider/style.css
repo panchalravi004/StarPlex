@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: rgb(208, 255, 0);
+    background-color: rgb(255, 217, 0);
     height: 40rem;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -14,6 +14,7 @@
     position: relative;
     /* width: 100%; */
     height: 100%;
+    transition: 0.2s;
 }
 @media only screen and (max-width:991px){
     html{

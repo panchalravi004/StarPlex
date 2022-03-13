@@ -1,0 +1,86 @@
+<!-- <div class="container" style="background-color: green;">
+    <h1 class="5">New release</h1>
+    <div class="row">
+        <div id="main" class="col-lg-3 col-xs-6">
+            <div class="card">
+                <div class="container-fluid"
+                    style="background-image: url(https://i.ibb.co/K5LD4H0/img-8.jpg);background-size: cover;">
+                    <img src="https://i.ibb.co/K5LD4H0/img-8.jpg" height="100%;">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Fourt Miskatee</h3>
+                    <h5 class="card-text">Lang : English Hindi</h5>
+                    <h5 class="card-text">Action Comedy</h5>
+                    <h5 class="card-text">rating 5.5</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="container" id="NewRelease">
+    <h1 style="color: white;font-weight: 600;">New Release</h1>
+    <div class="row" id="NewReleaseRow"></div>
+</div>
+</br>
+<div class="container" id="UpComing">
+    <h1 style="color: white;font-weight: 600;">Up Coming</h1>
+    <div class="row" id="UpComingRow"></div>
+</div>
+<script>
+
+    $(window).on('resize', function () {
+        if ($(window).height() < 992) {
+            $("#NewRelease #NewReleaseRow div").addClass('col-xs-6');
+            $("#NewRelease #NewReleaseRow div").removeClass('col-lg-3');
+        }
+        else {
+            $("#NewRelease #NewReleaseRow div").addClass('col-lg-3');
+            $("#NewRelease #NewReleaseRow div").removeClass('col-xs-6');
+        }
+    });
+    fetch('Movies/data.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appenddata(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
+    function appenddata(data) {
+        var main = document.getElementById("main-section");
+
+        for (var key in data) {
+
+            var subcat = document.getElementById(key);
+            var subcatrow = document.getElementById(key + "Row");
+
+            // alert(data[key].length);
+            for (var i = 0; i < data[key].length; i++) {
+                var temp = document.createElement("div");
+                temp.className = 'col-lg-3';
+
+                temp.innerHTML =
+                    // '<div id="main" class="col-lg-3 col-xs-6">' +
+                    '<div class="card" onclick=show(' + data[key][i].id + ')>' +
+                    '<div class="container-fluid"style="background-image: url(' + data[key][i].img + ');background-size: cover;">' +
+                    '<img src="' + data[key][i].img + '" height="100%;">' +
+                    '</div>' +
+                    '<div class="card-body">' +
+                    '<h3 class="card-title">' + data[key][i].mname + '</h3>' +
+                    '<h5 class="card-text">Lang : ' + data[key][i].lang + '</h5>' +
+                    '<h5 class="card-text">' + data[key][i].scat + '</h5>' +
+                    '<h5 class="card-text">Rating ' + data[key][i].star + ' <i class="fas fa-star" style="color: rgb(255, 217, 0);"></i></h5>'
+                    + '</div>'
+                    // + '</div>'
+                    + '</div>';
+                subcatrow.appendChild(temp);
+            }
+        }
+    }
+
+    function show(id) {
+        alert("this is id " + id);
+    }
+</script>

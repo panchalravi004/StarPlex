@@ -1,0 +1,35 @@
+.main-section{
+    background-color: black;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 1rem;
+    scroll-behavior: smooth;
+}
+.main-section .container{
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgba(99, 99, 99, 0.404);
+}
+.row .card{
+    /* width: 2rem; */
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin: 1.5rem 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.2s;
+}
+.row .card:hover{
+    transform: scale(1.06);
+}
+.row .card .card-body .card-title{
+    font-weight: 600;
+}
+.row .card .container-fluid{
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+    background-color: red;
+    overflow: hidden;
+}

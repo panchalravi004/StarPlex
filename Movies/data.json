@@ -1,0 +1,206 @@
+{
+    "NewRelease": [
+        {
+            "id": "1",
+            "mname": "West Side Story",
+            "lang": "English Hindi Spanish Franch",
+            "scat": "Comedy Action Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/6wGWPXb/west-side-story-et00122533-30-11-2021-07-22-09.jpg"
+        },
+        {
+            "id": "2",
+            "mname": "Free Guy",
+            "lang": "Hindi Spanish Franch",
+            "scat": "Romance Thriller",
+            "star": "3.5",
+            "img": "https://i.ibb.co/tMSFNyS/free-guy-et00122134-16-09-2021-03-10-33.jpg"
+        },
+        {
+            "id": "3",
+            "mname": "Shang Chi and The legend of the ten rings",
+            "lang": "English Spanish Franch",
+            "scat": "Comedy Romance Thriller",
+            "star": "4",
+            "img": "https://i.ibb.co/p4kCPHK/shang-chi-and-the-legend-of-the-ten-rings-et00122566-24-08-2021-02-01-36.jpg"
+        },
+        {
+            "id": "4",
+            "mname": "Death on the nile",
+            "lang": "English Hindi Spanish ",
+            "scat": "Comedy Action Romance ",
+            "star": "5",
+            "img": "https://i.ibb.co/b5G0bRT/death-on-the-nile-et00119105-07-02-2022-05-33-12.jpg"
+        },
+        {
+            "id": "5",
+            "mname": "Uncharted",
+            "lang": "English Hindi Franch",
+            "scat": "Action Romance Thriller",
+            "star": "4.8",
+            "img": "https://i.ibb.co/jTfVtJ8/uncharted-et00311712-22-02-2022-07-05-40.jpg"
+        },
+        {
+            "id": "6",
+            "mname": "83",
+            "lang": "English Hindi Franch",
+            "scat": "Romance Thriller",
+            "star": "3.3",
+            "img": "https://i.ibb.co/fNXMWdw/HO00015465.webp"
+        },
+        {
+            "id": "7",
+            "mname": "Badhaai Do",
+            "lang": "English Hindi Spanish ",
+            "scat": "Comedy  Thriller",
+            "star": "4.3",
+            "img": "https://i.ibb.co/X5MPTmY/HO00017895.webp"
+        },
+        {
+            "id": "8",
+            "mname": "Dog",
+            "lang": "English Hindi Franch",
+            "scat": "Comedy Action",
+            "star": "4.2",
+            "img": "https://i.ibb.co/LhWctCV/HO00019553.webp"
+        },
+        {
+            "id": "9",
+            "mname": "Spider Man",
+            "lang": "English Hindi Spanish Franch",
+            "scat": " Action  Thriller",
+            "star": "3",
+            "img": "https://i.ibb.co/rZyqCF9/HO00019111.jpg"
+        },
+        {
+            "id": "10",
+            "mname": "Firangi",
+            "lang": "English Hindi ",
+            "scat": "Comedy Action  Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/vhyvm8c/HO00019641.webp"
+        },
+        {
+            "id": "11",
+            "mname": "Jhund",
+            "lang": "English Hindi ",
+            "scat": "Action Romance Thriller",
+            "star": "3.1",
+            "img": "https://i.ibb.co/3zK1jnc/HO00015341.webp"
+        },
+        {
+            "id": "12",
+            "mname": "Kashmir",
+            "lang": "English Hindi ",
+            "scat": "Comedy Action Romance",
+            "star": "5",
+            "img": "https://i.ibb.co/6ZwHJ4T/HO00018942.webp"
+        }
+    ],
+    "UpComing": [
+        {
+            "id": "1",
+            "mname": "BatMan",
+            "lang": "English Hindi Franch",
+            "scat": "Comedy Romance Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/yBN9nxx/HO00019573.webp"
+        },
+        {
+            "id": "2",
+            "mname": "GanguBai",
+            "lang": "English Hindi ",
+            "scat": "Comedy Action",
+            "star": "2",
+            "img": "https://i.ibb.co/ZgJ76dH/HO00016347.webp"
+        },
+        {
+            "id": "3",
+            "mname": "Radhe Shyam",
+            "lang": "English Hindi Franch",
+            "scat": "Action Romance Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/FDYqkGv/HO00019651.webp"
+        },
+        {
+            "id": "4",
+            "mname": "Pavan Khand",
+            "lang": "Hindi Spanish Franch",
+            "scat": " Action Romance ",
+            "star": "3.6",
+            "img": "https://i.ibb.co/rdpjRWH/img-2.jpg"
+        },
+        {
+            "id": "5",
+            "mname": "Bishma",
+            "lang": "Hindi Spanish Franch",
+            "scat": "Action Romance Thriller",
+            "star": "3.3",
+            "img": "https://i.ibb.co/5BVHRX4/img-1.jpg"
+        },
+        {
+            "id": "6",
+            "mname": "Prototype",
+            "lang": "English Hindi Franch",
+            "scat": "Comedy Action Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/92dGHs3/img-3.jpg"
+        },
+        {
+            "id": "7",
+            "mname": "Sarkar",
+            "lang": "Hindi Spanish ",
+            "scat": "Action Romance Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/104CvBH/img-4.jpg"
+        },
+        {
+            "id": "8",
+            "mname": "No Budy",
+            "lang": "English Hindi  ",
+            "scat": "Comedy Thriller",
+            "star": "4.1",
+            "img": "https://i.ibb.co/zGnQ2vw/img-1.png"
+        },
+        {
+            "id": "9",
+            "mname": "Krack",
+            "lang": "English Hindi Franch",
+            "scat": "Action Romance Thriller",
+            "star": "4.3",
+            "img": "https://i.ibb.co/GpY9XJf/img-5.jpg"
+        },
+        {
+            "id": "10",
+            "mname": "Equalizer",
+            "lang": "English Hindi  ",
+            "scat": "Comedy Action Thriller",
+            "star": "5",
+            "img": "https://i.ibb.co/f21NrKr/img-6.jpg"
+        },
+        {
+            "id": "11",
+            "mname": "Louis and Luca",
+            "lang": "English Spanish Franch ",
+            "scat": "Comedy Romance Thriller",
+            "star": "4.9",
+            "img": "https://i.ibb.co/8rCZ5WP/img-7.jpg"
+        },
+        {
+            "id": "12",
+            "mname": "Musketeer",
+            "lang": "English Hindi Spanish ",
+            "scat": "Action Thriller",
+            "star": "4.6",
+            "img": "https://i.ibb.co/K5LD4H0/img-8.jpg"
+        },
+        {
+            "id": "13",
+            "mname": "The Godfather",
+            "lang": "English Hindi Spanish Franch",
+            "scat": "Comedy Action Romance Thriller",
+            "star": "3.8",
+            "img": "https://i.ibb.co/88ppSnW/img-9.jpg"
+        }
+    ]
+}
