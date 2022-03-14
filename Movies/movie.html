@@ -18,26 +18,26 @@
     </div>
 </div> -->
 <div class="container" id="NewRelease">
-    <h1 style="color: white;font-weight: 600;">New Release</h1>
+    <h1 style="color: black;font-weight: 600;">New Release</h1>
     <div class="row" id="NewReleaseRow"></div>
 </div>
 </br>
 <div class="container" id="UpComing">
-    <h1 style="color: white;font-weight: 600;">Up Coming</h1>
+    <h1 style="color: black;font-weight: 600;">Up Coming</h1>
     <div class="row" id="UpComingRow"></div>
 </div>
 <script>
 
-    $(window).on('resize', function () {
-        if ($(window).height() < 992) {
-            $("#NewRelease #NewReleaseRow div").addClass('col-xs-6');
-            $("#NewRelease #NewReleaseRow div").removeClass('col-lg-3');
-        }
-        else {
-            $("#NewRelease #NewReleaseRow div").addClass('col-lg-3');
-            $("#NewRelease #NewReleaseRow div").removeClass('col-xs-6');
-        }
-    });
+    // $(window).on('resize', function () {
+    //     if ($(window).height() < 992) {
+    //         $("#NewRelease #NewReleaseRow div").addClass('col-xs-6');
+    //         $("#NewRelease #NewReleaseRow div").removeClass('col-lg-3');
+    //     }
+    //     else {
+    //         $("#NewRelease #NewReleaseRow div").addClass('col-lg-3');
+    //         $("#NewRelease #NewReleaseRow div").removeClass('col-xs-6');
+    //     }
+    // });
     fetch('Movies/data.json')
         .then(function (response) {
             return response.json();
@@ -59,7 +59,8 @@
             // alert(data[key].length);
             for (var i = 0; i < data[key].length; i++) {
                 var temp = document.createElement("div");
-                temp.className = 'col-lg-3';
+                // temp.className = 'col-lg-6';
+                temp.className = 'col-lg-3 col-md-4 col-sm-6';
 
                 temp.innerHTML =
                     // '<div id="main" class="col-lg-3 col-xs-6">' +

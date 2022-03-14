@@ -1,5 +1,5 @@
 .main-section{
-    background-color: black;
+    /* background-color: black; */
     margin-top: 5rem;
     width: 100%;
     padding: 1rem;
@@ -8,13 +8,13 @@
 .main-section .container{
     padding: 1rem;
     border-radius: 2rem;
-    background-color: rgba(99, 99, 99, 0.404);
+    background-color: rgba(212, 212, 212, 0.295);
 }
 .row .card{
-    /* width: 2rem; */
+    width: 20rem;
     border-radius: 1.5rem;
     overflow: hidden;
-    margin: 1.5rem 1rem;
+    margin: 1.5rem 1.5rem;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -32,4 +32,19 @@
     height: 15rem;
     background-color: red;
     overflow: hidden;
+}
+
+/* @media only screen and (max-width:780px){
+    .row .card{
+        margin: 1.5rem 0rem;
+    }
+} */
+
+@media only screen and (max-width:545px){
+    html{
+        font-size: 50%;
+    }
+    .row .card{
+        width: auto;
+    }
 }
